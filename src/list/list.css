@@ -1,0 +1,22 @@
+@keyframes changeValue {
+    0% {
+        background: #fff;
+    }
+
+    50% {
+        background: #15adad;;
+    }
+
+    100% {
+        
+    }
+  }
+  
+  .value-changer {
+    animation: changeValue 2s linear alternate;
+  }
+
+  .table-bank {
+      max-height: 60vh;
+      overflow-y: auto; 
+  }
